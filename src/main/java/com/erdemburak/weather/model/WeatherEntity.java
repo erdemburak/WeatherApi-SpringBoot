@@ -28,6 +28,7 @@ public class WeatherEntity {
         this.updateTime = updateTime;
         this.responseLocalTime = responseLocalTime;
     }
+
     public WeatherEntity(String requestedCityName, String cityName, String country, Integer temperature, LocalDateTime updateTime, LocalDateTime responseLocalTime) {
         this.id = "";
         this.requestedCityName = requestedCityName;
